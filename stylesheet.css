@@ -1,0 +1,206 @@
+body {
+    background-color: #DCDCDC;
+}
+
+div {
+    margin-left: 60px;
+    margin-right: 60px;
+} 
+
+br {
+    line-height: 30%;
+}
+
+.checkoutprompt {
+    text-align: left;
+    margin-top: 60px;
+    width:auto;
+    height: 30px;
+    background-color: #DCDCDC;
+}
+
+.linie {
+    width: 50px;
+    height: 5px;
+    background-color: #00ced1;
+    margin-top: 10px;
+}
+
+#checkout {
+    font-family: Verdana, sans-serif;
+    font-size: 25;
+    color: #333333;
+    
+}
+
+.products {
+    float:left;
+    margin-top: 20px;
+    width:670px;
+    height: 300px;
+    border-radius: 5px;
+    
+}
+
+.cart{
+    float:right;
+    margin-top: 20px;
+    width:670px;
+    height: 500px;
+    background-color: #d0d0d0;
+    margin-left: -22px;
+    border-radius: 5px;
+    border: 2px solid #bebebe;
+}
+
+.product {
+    width: auto;
+    height: 71.5px;
+    background-color: white;
+    margin-left: -60px;
+    margin-right: -60px;
+    border-radius: 5px;
+    font-size: 20;
+    font-family: Verdana, sans-serif;
+    color: #333333;
+}
+
+.addToCart {
+    float: right;
+    margin-right: 16px;
+    width: 150px;
+    height: 50px;
+    margin-top: -10px;
+    border-radius: 2px;
+    background-color: #11c979;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+.addtoCart:hover {
+    background-color: #158f5a;
+}
+
+.icon {
+    background: url(cart.png);
+    width:10px;
+    height:10px;
+}
+
+.space1{
+    width:250px;
+    height:10px;
+    float:left;
+    margin-left: 2px;
+    color: #707070;
+    size: 15px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+.space2{
+    width:120px;
+    height:10px;
+    float:left;
+    margin-right: -10px;
+    color: #707070;
+    size: 15px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+.space3{
+    margin-left: -60px;
+    margin-right: -60px;
+    color: #707070;
+    size: 15px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+.tooltip {
+    margin-left: 20px;
+    margin-right: -60px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    size: 10px;
+    width: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: white;
+    size: 10px;
+    color: gray;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: lighter;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .delete {
+    float: right;
+    margin-right: 16px;
+    width: 100px;
+    height: 50px;
+    margin-top: -10px;
+    border-radius: 2px;
+    background-color: #c9112a;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #9b0d20;
+}
+
+.dropdown{
+    float:right;
+    margin-top: -40px;
+    margin-left: -60px;
+    margin-right: 0px;
+    font-family: Verdana, sans-serif;
+    color: #707070;
+}
+
+#dropMenu{
+    border-radius: 3px;
+}
+
+.continue {
+    float: center;
+    
+    width: 550px;
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #11c979;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+.continue:hover {
+    background-color: #158f5a;
+}
